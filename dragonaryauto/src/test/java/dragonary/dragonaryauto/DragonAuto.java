@@ -1,8 +1,11 @@
 package dragonary.dragonaryauto;
 
+import org.apache.tools.ant.types.resources.comparators.Exists;
 import org.sikuli.script.FindFailed;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
+
+import com.kenai.constantine.platform.WaitFlags;
 
 public class DragonAuto {
 	
@@ -33,30 +36,74 @@ public class DragonAuto {
 		Pattern claimButton = new Pattern(imagePath + "/images/claim_btn");
 		Pattern continueButton = new Pattern(imagePath + "/images/continue_btn");
 		Pattern exitButton = new Pattern(imagePath + "/images/exit_btn");
+		while(true) {
 		
-		try {
-			
-			
-			
-			while(true) {
-				screen.click(missionButton);
-				screen.click(storyButton);
-				screen.click(mission7Button);
-				screen.click(playButton);
 				
-				screen.click(playInsideFightButton);
-				screen.click(manualButton);
-				screen.click(speedButton);
-				screen.click(claimButton);
-				screen.click(continueButton);
-				screen.click(exitButton);
-			}
+					try {
+						screen.click(missionButton);
+					} catch (FindFailed e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					try {
+						screen.click(storyButton);
+					} catch (FindFailed e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					try {
+						screen.click(mission7Button);
+					} catch (FindFailed e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
+					try {
+						screen.click(playButton);
+					} catch (FindFailed e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				
+					try {
+						screen.click(playInsideFightButton);
+					} catch (FindFailed e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				
+					try {
+						screen.click(manualButton);
+					} catch (FindFailed e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					try {
+						screen.click(speedButton);
+					} catch (FindFailed e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					try {
+						screen.click(claimButton);
+					} catch (FindFailed e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					try {
+						screen.click(continueButton);
+					} catch (FindFailed e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+					try {
+						screen.click(exitButton);
+					} catch (FindFailed e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
 			
+				
 			
-			
-		} catch (FindFailed e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
 	}
 	
