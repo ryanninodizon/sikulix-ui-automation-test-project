@@ -2,7 +2,7 @@
 
 This project is simply for testing and I have used the Dragonary game as my main example. But it can also work for other applications.
 
-You can check this file for the sample usage.
+You can check this file for a sample usage.
 > dragonaryauto/src/test/java/dragonary/dragonaryauto/DragonAuto.java
 
 ```java
