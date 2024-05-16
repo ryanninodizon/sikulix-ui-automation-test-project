@@ -34,6 +34,6 @@ public class DragonAuto {
 }
 ```
 
-# Watch these YouTube videos to see how I created and used it
+# See these videos to see how I created and utilized it.
 -  [AUTOPLAY using SikuliX Project (Part 1)](https://youtu.be/TUUWTE534wE).
 -  [AUTOPLAY using SikuliX Project (Part 2)](https://youtu.be/DvJos-TVoDk).
