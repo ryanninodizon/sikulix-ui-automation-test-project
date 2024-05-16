@@ -34,6 +34,18 @@ public class DragonAuto {
 }
 ```
 
+**Sikuli X dependency should be added:**
+> dragonaryauto/pom.xml
+
+```xml
+<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
+<dependency>
+    <groupId>com.sikulix</groupId>
+    <artifactId>sikulixapi</artifactId>
+    <version>2.0.5</version>
+</dependency>
+```
+
 # See these videos to see how I created and utilized it.
 > I am still using Eclipse IDE in the video but I think this project can still work with VS code.
 
