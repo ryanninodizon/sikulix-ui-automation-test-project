@@ -35,5 +35,7 @@ public class DragonAuto {
 ```
 
 # See these videos to see how I created and utilized it.
+> I am still using Eclipse IDE in the video but I think this project can still work with VS code.
+
 -  [AUTOPLAY using SikuliX Project (Part 1)](https://youtu.be/TUUWTE534wE).
 -  [AUTOPLAY using SikuliX Project (Part 2)](https://youtu.be/DvJos-TVoDk).
