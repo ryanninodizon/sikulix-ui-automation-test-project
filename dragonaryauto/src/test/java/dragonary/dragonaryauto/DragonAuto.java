@@ -15,12 +15,10 @@ public class DragonAuto {
 		DragonAuto object = new DragonAuto();
 		object.Play();
 		
-	}
-	
+	}	
 	private synchronized  void Play() {
 		
-		Screen screen = new Screen();
-		
+		Screen screen = new Screen();		
 		String imagePath = System.getProperty("user.dir") + "\\";
 		
 		//Buttons
@@ -41,8 +39,7 @@ public class DragonAuto {
 		Pattern claimButton = new Pattern(imagePath + "/images/claim_btn");
 		Pattern continueButton = new Pattern(imagePath + "/images/continue_btn");
 		Pattern exitButton = new Pattern(imagePath + "/images/exit_btn");
-		while(true) {
-		
+		while(true) {		
 			/*try {
 				screen.click(errorBtn);
 			} catch (FindFailed e) {
