@@ -16,8 +16,7 @@ public class DragonAuto {
 	public static void main(String[] args) {
 		DragonAuto object = new DragonAuto();
 		object.Play();		
-	}
-	
+	}	
 	private synchronized  void Play() {		
 		Screen screen = new Screen();		
 		String imagePath = System.getProperty("user.dir") + "\\";
